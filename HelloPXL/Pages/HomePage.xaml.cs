@@ -7,13 +7,13 @@ public partial class HomePage : ContentPage
 		InitializeComponent();
 	}
 
-    private void RoutingMenu_Clicked(object sender, EventArgs e)
+    private async void RoutingMenu_Clicked(object sender, EventArgs e)
     {
-
+        await Shell.Current.GoToAsync(nameof(MenuPage));
     }
 
-    private void RoutingAbout_Clicked(object sender, EventArgs e)
+    private async void RoutingAbout_Clicked(object sender, EventArgs e)
     {
-
+        await Shell.Current.GoToAsync(nameof(AboutPage));
     }
 }
