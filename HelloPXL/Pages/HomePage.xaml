@@ -11,11 +11,13 @@
         <Button ImageSource="menu.svg" Grid.Row="0" Text="Menu" TextColor="Black"
 			HorizontalOptions="Center"
 			VerticalOptions="Center"
-			Background="WhiteSmoke" />
+			Background="WhiteSmoke" 
+            Clicked="RoutingMenu_Clicked"    />
 
         <Button ImageSource="about.svg" Grid.Row="1" Text="Over ons" TextColor="Black"
 			HorizontalOptions="Center"
 			VerticalOptions="Center"
-			Background="WhiteSmoke" />
+			Background="WhiteSmoke"
+            Clicked="RoutingAbout_Clicked"    />
     </Grid>
 </ContentPage>
